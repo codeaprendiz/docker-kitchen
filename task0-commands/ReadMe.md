@@ -6,7 +6,7 @@ LivingSocial API Design Guide
 
 ## Contents
 - [image](#image)
-    - [rm](#rm id-of-the-image)
+    - [rm](#rm-id-of-the-image)
 - [Overview](#overview)
     - [Why Have an API Design Guide?](#why-have-an-api-design-guide)
     - [Guiding Principles](#guiding-principles)
