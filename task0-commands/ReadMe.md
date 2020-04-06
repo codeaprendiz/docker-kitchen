@@ -5,7 +5,7 @@ LivingSocial API Design Guide
 
 
 ## Contents
-- [1](#1)
+- [image](#image)
 - [Overview](#overview)
     - [Why Have an API Design Guide?](#why-have-an-api-design-guide)
     - [Guiding Principles](#guiding-principles)
@@ -88,16 +88,23 @@ LivingSocial API Design Guide
         - [JSON References](#json-references)
 
 
-## 1
-The purpose of the LivingSocial API Design Guide is to provide
-standards and best practices that all new LivingSocial APIs (both
-internal and external) should follow. This guide is to help developers
-and architects design and implement consistent and well-documented APIs
-across our enterprise.
-
-A basic knowledge of REST, HTTP, and JSON is assumed. We will provide
-links to resources for those who want to learn more about the
-fundamentals of these technologies.
+## image
+- rm [id-of-the-image]
+To remove the image with specific ID
+```bash
+$ sudo docker images | grep ubuntu
+Password:
+ubuntu                               latest                     4e5021d210f6        2 weeks ago         64.2MB
+ 
+$ sudo docker image rm 4e5021d210f6
+Untagged: ubuntu:latest
+Untagged: ubuntu@sha256:bec5a2727be7fff3d308193cfde3491f8fba1a2ba392b7546b43a051853a341d
+Deleted: sha256:4e5021d210f65ebe915670c7089120120bc0a303b90208592851708c1b8c04bd
+Deleted: sha256:1d9112746e9d86157c23e426ce87cc2d7bced0ba2ec8ddbdfbcc3093e0769472
+Deleted: sha256:efcf4a93c18b5d01aa8e10a2e3b7e2b2eef0378336456d8653e2d123d6232c1e
+Deleted: sha256:1e1aa31289fdca521c403edd6b37317bf0a349a941c7f19b6d9d311f59347502
+Deleted: sha256:c8be1b8f4d60d99c281fc2db75e0f56df42a83ad2f0b091621ce19357e19d853
+```
 
 
 ## Overview
@@ -1061,25 +1068,7 @@ In addition to our experience, we've drawn on the the following external guides 
 
 
 ## Place 2
-## image
-- rm [id-of-the-image]
 
-
-To remove the image with specific ID
-```bash
-$ sudo docker images | grep ubuntu
-Password:
-ubuntu                               latest                     4e5021d210f6        2 weeks ago         64.2MB
- 
-$ sudo docker image rm 4e5021d210f6
-Untagged: ubuntu:latest
-Untagged: ubuntu@sha256:bec5a2727be7fff3d308193cfde3491f8fba1a2ba392b7546b43a051853a341d
-Deleted: sha256:4e5021d210f65ebe915670c7089120120bc0a303b90208592851708c1b8c04bd
-Deleted: sha256:1d9112746e9d86157c23e426ce87cc2d7bced0ba2ec8ddbdfbcc3093e0769472
-Deleted: sha256:efcf4a93c18b5d01aa8e10a2e3b7e2b2eef0378336456d8653e2d123d6232c1e
-Deleted: sha256:1e1aa31289fdca521c403edd6b37317bf0a349a941c7f19b6d9d311f59347502
-Deleted: sha256:c8be1b8f4d60d99c281fc2db75e0f56df42a83ad2f0b091621ce19357e19d853
-```
 
 ## images
 To show all the images present
