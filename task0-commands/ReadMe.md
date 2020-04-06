@@ -8,11 +8,6 @@
 
 ### Place 1
 
-Hello, this is some text to fill in this, , is a link to the second place.
-
-
-
-Place one has the fun times of linking here, but I can also link back [here](#place-1).
 
 ### Place 2
 ## image
