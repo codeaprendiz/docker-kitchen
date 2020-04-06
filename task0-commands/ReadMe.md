@@ -6,7 +6,7 @@ LivingSocial API Design Guide
 
 ## Contents
 - [image](#image)
-    - [rm](#rm)
+    - [rm](#rm id-of-the-image)
 - [Overview](#overview)
     - [Why Have an API Design Guide?](#why-have-an-api-design-guide)
     - [Guiding Principles](#guiding-principles)
@@ -90,7 +90,7 @@ LivingSocial API Design Guide
 
 
 ## image
-### rm [id-of-the-image]
+### rm id-of-the-image
 To remove the image with specific ID
 ```bash
 $ sudo docker images | grep ubuntu
