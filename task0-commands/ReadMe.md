@@ -9,8 +9,10 @@
 - [Overview](#overview)
 
 
+
 ## Purpose
 - rm [id-of-the-image]
+
 
 To remove the image with specific ID
 ```bash
