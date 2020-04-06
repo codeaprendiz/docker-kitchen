@@ -34,12 +34,7 @@ ubuntu                               latest                     4e5021d210f6    
 busybox                              latest                     83aa35aa1c79        3 weeks ago         1.22MB
 ```
 
-## Overview
-API Design has come of age, and has become a first-class citizen in the
-enterprise. The principles and practices that we follow determine the
-usability and overall quality of our APIs. We've seen web sites and
-books on the topic, but why do we need an API Design Guide, and what
-are the essentials of good API design?
+
 
 
 
