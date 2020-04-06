@@ -1,9 +1,9 @@
 ## COMMANDS CONTROL
-- [image](#image)
+- [image](#place1)
 - [images](#images)
 
 
-## image
+## place1
 - rm [id-of-the-image]
 
 
