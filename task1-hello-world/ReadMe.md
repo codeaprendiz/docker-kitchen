@@ -1,6 +1,6 @@
 ## Hello World Using Docker
 
-> docker run <image-name>
+> docker run [image-name]
 
 ```bash
 $ docker run hello-world
