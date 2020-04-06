@@ -1,3 +1,6 @@
+## Hello World Using Docker
+
+> docker run <image-name>
 
 ```bash
 $ docker run hello-world
@@ -30,9 +33,3 @@ For more examples and ideas, visit:
 ```
 
 
-![](.helloworld_images/hello_world.png)
-
-
-
-
-![](.helloworld_images/images-and-containers.png)
