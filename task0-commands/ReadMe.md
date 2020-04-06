@@ -1,6 +1,6 @@
 ## COMMANDS CONTROL
 
-- [here](#place-2)
+- [place-2](#place-2)
 - [image](#image)
 - [images](#images)
 
