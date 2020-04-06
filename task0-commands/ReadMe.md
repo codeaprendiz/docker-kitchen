@@ -1,14 +1,13 @@
 ## COMMANDS CONTROL
 
-## Title
 
-### Place 1
+## Place1
 
-Hello, this is some text to fill in this, [here](#place-2), is a link to the second place.
+Hello, this is some text to fill in this, [place2](#place2), is a link to the second place.
 
-### Place 2
+## Place2
 
-Place one has the fun times of linking here, but I can also link back [here](#place-1).
+Place one has the fun times of linking here, but I can also link back [place1](#place1).
 
 - image
     - rm [id-of-the-image]
