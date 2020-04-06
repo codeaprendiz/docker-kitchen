@@ -1,8 +1,9 @@
 ## COMMANDS CONTROL
 
-[image](#image)
+- [image](#image)
+- [images](#images)
 
-[images](#images)
+
 
 
 
