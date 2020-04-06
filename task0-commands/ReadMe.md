@@ -38,7 +38,8 @@ busybox                              latest                     83aa35aa1c79    
 
 ## run
 ### interactive
->--interactive , -i		
+>--interactive , -i	
+>	
 >Keep STDIN open even if not attached 
 ```bash
 $ sudo docker run -i ubuntu:latest bash
@@ -49,7 +50,8 @@ exit
 $
 ```
 ### tty
->--tty , -t		
+>--tty , -t	
+>	
 >Allocate a pseudo-TTY
 
 You have to externally kill the container in this case
