@@ -1,16 +1,9 @@
 ## COMMANDS CONTROL
-
 - [image](#image)
 - [images](#images)
 
 
-## Contents
-- [Purpose](#purpose)
-- [Overview](#overview)
-
-
-
-## Purpose
+## image
 - rm [id-of-the-image]
 
 
@@ -30,8 +23,7 @@ Deleted: sha256:1e1aa31289fdca521c403edd6b37317bf0a349a941c7f19b6d9d311f59347502
 Deleted: sha256:c8be1b8f4d60d99c281fc2db75e0f56df42a83ad2f0b091621ce19357e19d853
 ```
 
-## Overview
-
+## images
 To show all the images present
 ```bash
 $ sudo docker images               
