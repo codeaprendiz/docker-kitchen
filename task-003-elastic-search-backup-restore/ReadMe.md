@@ -3,12 +3,6 @@
     - [elasticsearch-backup-snapshot-and-restore-on-aws-s3](https://medium.com/@federicopanini/elasticsearch-backup-snapshot-and-restore-on-aws-s3-f1fc32fbca7f)
     - [opendistro](https://opendistro.github.io/for-elasticsearch-docs/docs/elasticsearch/snapshot-restore/#amazon-s3)
 
-Build Command
-```bash
-ENV APP_ENV ${APP_ENV}
-```
-> docker build --build-arg APP_ENV=prod .
-
 
 ### Build image and deploy
 
