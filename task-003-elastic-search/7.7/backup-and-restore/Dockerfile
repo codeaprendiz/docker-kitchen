@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.7.0
 
 #this is to tell that we are passing these arguments at runtime
 ARG ENV_VAR_AWS_ACCESS_KEY_ID
