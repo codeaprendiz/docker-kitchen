@@ -182,6 +182,17 @@ yellow open   logstash-2015.05.18 sg3cCzaVQyunHmwDpWK7gQ   1   1       4631     
 yellow open   logstash-2015.05.19 BOvYmnU6QB-Wp0ITC0wN1g   1   1       4624            0     13.8mb         13.8mb
 ```
 
+## Index Mapping before restore
+
+```bash
+$ curl -X GET "http://localhost:9200/bank/_mapping"
+{"bank":{"mappings":{"properties":{"account_number":{"type":"long"},"address":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"age":{"type":"long"},"balance":{"type":"long"},"city":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"email":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"employer":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"firstname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"gender":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"lastname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"state":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}}}
+```
+
+```bash
+$ curl -X GET "http://localhost:9200/shakespeare/_mapping"
+{"shakespeare":{"mappings":{"properties":{"line_id":{"type":"integer"},"line_number":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"play_name":{"type":"keyword"},"speaker":{"type":"keyword"},"speech_number":{"type":"integer"},"text_entry":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}}}
+```
 
 
 ### Taking Snapshots
@@ -251,3 +262,16 @@ yellow open   logstash-2015.05.18 i8P-GUM_S_CYMwBh-nO4pQ   1   1       4631     
 yellow open   logstash-2015.05.19 XStCeqfgRSSxbNEo9Gdy9w   1   1       4624            0     13.8mb         13.8mb
 
 ```
+
+## Index Mapping after restore
+
+```bash
+$ curl -X GET "http://localhost:9200/bank/_mapping"
+{"bank":{"mappings":{"properties":{"account_number":{"type":"long"},"address":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"age":{"type":"long"},"balance":{"type":"long"},"city":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"email":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"employer":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"firstname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"gender":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"lastname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"state":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}}}
+```
+
+```bash
+$ curl -X GET "http://localhost:9200/shakespeare/_mapping"
+{"shakespeare":{"mappings":{"properties":{"line_id":{"type":"integer"},"line_number":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"play_name":{"type":"keyword"},"speaker":{"type":"keyword"},"speech_number":{"type":"integer"},"text_entry":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}}}
+```
+
