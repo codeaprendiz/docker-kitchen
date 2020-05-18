@@ -182,7 +182,7 @@ yellow open   logstash-2015.05.18 sg3cCzaVQyunHmwDpWK7gQ   1   1       4631     
 yellow open   logstash-2015.05.19 BOvYmnU6QB-Wp0ITC0wN1g   1   1       4624            0     13.8mb         13.8mb
 ```
 
-## Index Mapping before restore
+### Index Mapping before restore
 
 ```bash
 $ curl -X GET "http://localhost:9200/bank/_mapping"
@@ -263,7 +263,7 @@ yellow open   logstash-2015.05.19 XStCeqfgRSSxbNEo9Gdy9w   1   1       4624     
 
 ```
 
-## Index Mapping after restore
+### Index Mapping after restore
 
 ```bash
 $ curl -X GET "http://localhost:9200/bank/_mapping"
