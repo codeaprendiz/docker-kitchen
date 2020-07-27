@@ -9,3 +9,4 @@
 - [tasks-003-elastic-search](local/task-003-elastic-search/7.7)
   - [backup-and-restore](local/task-003-elastic-search/7.7/backup-and-restore)
   - [bkp-restore-sample-data](local/task-003-elastic-search/7.7/bkp-restore-sample-data)
+- [task-004-prom-blackbox-exporter](local/task-004-prom-blackbox-exporter)
