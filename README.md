@@ -6,7 +6,8 @@
 
 - [task-001-hello-world](local/task-001-hello-world)
 - [task-002-ubuntu](local/task-002-ubuntu)
-- [tasks-003-elastic-search](local/task-003-elastic-search/7.7)
-  - [backup-and-restore](local/task-003-elastic-search/7.7/backup-and-restore)
-  - [bkp-restore-sample-data](local/task-003-elastic-search/7.7/bkp-restore-sample-data)
+- [tasks-003-elastic-search](local/task-003-elastic-search-bkp-restore)
 - [task-004-prom-blackbox-exporter](local/task-004-prom-blackbox-exporter)
+- [task-005-elastic-search](local/task-005-elastic-search)
+- [task-006-kibana](local/task-006-kibana)
+- [task-007-elastic-search-backup-restore-sample-data](local/task-007-elastic-search-backup-restore-sample-data)
