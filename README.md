@@ -11,3 +11,8 @@
 - [task-005-elastic-search](local/task-005-elastic-search)
 - [task-006-kibana](local/task-006-kibana)
 - [task-007-elastic-search-backup-restore-sample-data](local/task-007-elastic-search-backup-restore-sample-data)
+
+
+### Nginx
+
+- [task-008: To test https certs valid for domain (*.domain.com) using nginx](local/task-008-nginx-https-domain-test)
