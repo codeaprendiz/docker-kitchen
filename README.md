@@ -18,6 +18,7 @@
 
 ## Local Mac
 - [task-009 - mysql](local-mac/task-009-mysql)
+- [task-010 - mongo](local-mac/task-010-mongo)
 
 ### Nginx
 
