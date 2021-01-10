@@ -16,6 +16,7 @@ CONTAINER ID   NAME                 CPU %     MEM USAGE / LIMIT   MEM %     NET 
 
 By default, access to the computing power of the host machine is unlimited. We can set the CPUs limit using the cpus parameter. For example, let's constrain our container to use at most two CPUs:
 
+
 ```bash
 $ docker run --cpus=2 nginx
 ```
