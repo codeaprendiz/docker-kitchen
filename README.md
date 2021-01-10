@@ -23,3 +23,8 @@
 ### Nginx
 
 - [task-008 - To test https certs valid for domain (*.domain.com) using nginx](local/task-008-nginx-https-domain-test)
+
+
+### Basics
+
+- [task-011: To set the memory and cpu limit used by contianer](local-mac/task-011-mem-and-cpu-limit-container)
