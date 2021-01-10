@@ -1,6 +1,13 @@
 
 [Link](https://medium.com/@crmcmullen/how-to-run-mysql-in-a-docker-container-on-macos-with-persistent-local-data-58b89aec496a)
 
+- To stop the mysql process on mac OS
+```bash
+$ sudo launchctl unload -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+/Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist: Operation now in progress
+```
+
+
 - Create persistent directory
 ```bash
 $ mkdir /Users/[your_username]/Develop
