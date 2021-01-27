@@ -23,4 +23,4 @@ $ docker run --link dreamy_borg:elasticsearch -p 5601:5601 docker.elastic.co/kib
 - Once the Kibana is up you can visit the dashboard at [http://0.0.0.0:5601/app/kibana](http://0.0.0.0:5601/app/kibana)
   You can verify the elastic search connection by checking Index Pattern settings page.
   
-![](ReadMe_images/kibana-dashboard.png)
+![](../../images/task-006-kibana/kibana-dashboard.png)
